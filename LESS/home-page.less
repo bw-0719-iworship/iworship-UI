@@ -1,7 +1,7 @@
 .logo{
     font-size: 4rem;
     margin:0;
-    padding-right: 300px;
+    padding-right: 500px;
     
 }
 .pageHome {
@@ -20,7 +20,10 @@
     width: 260px;
     text-align: center;
     border-radius: 10px;
-
+    &:hover{
+        color: darkgray;
+        font-size: 3.5rem;
+     }
 }
 
 
@@ -30,6 +33,17 @@
         .pageHome{
             display: flex;
             flex-direction: column-reverse;
+            .pageInfo{
+            width: 95%;
+            padding-left: 15px; 
+            }
+            .image{
+                width: 100%;
+                justify-content: center;
+            }
+            .btn{
+                width: 100%;
+            }
         }
         
     }
