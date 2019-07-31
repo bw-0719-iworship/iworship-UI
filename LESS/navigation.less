@@ -1,38 +1,51 @@
 .topNav{
         display: flex;
         color: black;
-        padding: 15px;
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        padding-bottom: 30px;
+        //padding-bottom: 30px;
+        //border: 1px solid red;
+
+        nav {
+           display: flex;
+           justify-content: space-around;
+           width: 100%;
+           //border: 1px solid red;
         
-       a{
-            display: inline-flex;
-            justify-content: space-around;
-            text-decoration: none;
-            font-family: 'Anton', sans-serif;
-            padding: 10px 60px 10px 0px;
-            font-size: 2rem;
-            color: black;
+            a{
+               width: 100%;
+               display: inline-flex;
+               justify-content: space-around;
+               text-decoration: none;
+               font-family: 'Anton', sans-serif;
+               padding: 2% 0 ;
+               font-size: 2rem;
+               color: black;
+               //border: 1px solid red;
+               &:hover{
+                  color: darkgray;
+                  font-size: 1.5rem;
+               }
+            }
          }
-         a:hover{
-            color: darkgray;
-            font-size: 1.5rem;
-         }
+         
           @media @phone{
              display:flex;
              flex-flow: column wrap;
-             .logo{
-                padding-right: 50px;
-                padding-bottom: 20px; 
-               }
+                .logo{
+                padding-bottom: 20px;
+                padding-left: 50px; 
+                  }
+            a{ display: flex;
+               padding: 10% 0;
+            }
             }
          
          @media @desktop{
-           .logo {
-              padding-right: 400px;
-           }  
+         
+           //.logo {
+              //padding-right: 400px;
+           //}  
          }
         }
   
