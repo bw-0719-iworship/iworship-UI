@@ -1,3 +1,24 @@
+.navStyle {
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.navStyle nav a {
+  display: inline-flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5rem;
+  color: black;
+}
+.navStyle nav a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
+}
 del,
 dfn,
 em,
@@ -108,7 +129,7 @@ html {
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: white;
+  color: black;
 }
 h1,
 h2,
@@ -116,7 +137,7 @@ h3,
 h4,
 h5 {
   font-family: 'Russo One', sans-serif;
-  color: white;
+  color: black;
 }
 h2 {
   font-size: 3.2rem;
@@ -135,28 +156,47 @@ p {
 }
 .topNav {
   color: black;
-  background: grey;
   padding: 15px;
-  border: 1px double darkgrey;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
 }
-.container p {
-  color: red;
+.topNav nav a {
+  display: inline-flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5rem;
+  color: black;
 }
-@media (max-width: 500px) {
-  .container {
-    background-color: lightgreen;
-  }
-  .container p {
-    color: blue;
-  }
+.topNav nav a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
 }
-@media (max-width: 1000px) {
-  .container {
-    background-color: #ffee00;
-  }
+.home .image {
+  display: flex;
+  justify-content: flex-end;
+}
+.topNav {
+  color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.topNav nav a {
+  display: inline-flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5rem;
+  color: black;
+}
+.topNav nav a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 2rem;
 }
