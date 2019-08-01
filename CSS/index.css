@@ -1,0 +1,266 @@
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #042f4b;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  color: #042f4b;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.topNav {
+  display: flex;
+  color: #eeeeee;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #042f4b;
+}
+.topNav nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.topNav nav a {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  text-decoration: none;
+  font-family: 'Anton', sans-serif;
+  padding: 2% 0 ;
+  font-size: 3.5rem;
+  color: #eeeeee;
+}
+.topNav nav a:hover {
+  color: #00adb5;
+  font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  .topNav {
+    display: flex;
+    flex-flow: column wrap;
+  }
+}
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Anton Regular'), local('Anton-Regular'), url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3Kz-Co.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fjalla One'), local('FjallaOne-Regular'), url(https://fonts.gstatic.com/s/fjallaone/v7/Yq6R-LCAWCX3-6Ky7FAFrOF6lw.ttf) format('truetype');
+}
+.logo {
+  font-size: 4rem;
+  font-family: 'Fjalla One', sans-serif;
+  margin-right: 10%;
+  color: #eeeeee;
+  padding-left: 20px;
+}
+.pageHome {
+  display: inline-flex;
+  background-color: #eeeeee;
+}
+.logoLink {
+  text-decoration: none;
+}
+.pageInfo {
+  width: 350px;
+}
+.image {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn {
+  font-size: 3rem;
+  width: 260px;
+  text-align: center;
+  border-radius: 10px;
+  color: #eeeeee;
+  background-color: #042f4b;
+  font-family: 'Fjalla One', sans-serif;
+}
+.btn:hover {
+  color: #00adb5;
+  font-size: 3.5rem;
+}
+@media (max-width: 500px) {
+  .pageHome {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .pageHome .pageInfo {
+    width: 95%;
+    padding-left: 15px;
+  }
+  .pageHome .image {
+    width: 100%;
+    justify-content: center;
+  }
+  .pageHome .btn {
+    width: 100%;
+  }
+}
+.home {
+  background-color: #eeeeee;
+}
+.home .image {
+  display: flex;
+  justify-content: flex-end;
+}
+.home h2 {
+  padding-left: 20px;
+}
+.home .aboutPics {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2rem;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .home .eachPic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 2rem;
+  }
+  .home .eachTitle {
+    display: flex;
+    align-items: center;
+  }
+}
+.home .image {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,56 @@
+
+.logo{
+    font-size: 4rem;
+    font-family: 'Fjalla One', sans-serif;
+    margin-right: 10%;
+    color: #eeeeee;
+    padding-left: 20px;
+    }
+   .pageHome {
+    display: inline-flex;
+    background-color: #eeeeee;
+    }
+    .logoLink{
+        text-decoration: none;
+    }
+    .pageInfo{
+    width: 350px;
+    }
+
+    .image{
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    .btn{
+    font-size: 3rem;
+    width: 260px;
+    text-align: center;
+    border-radius: 10px;
+    color: #eeeeee;
+    background-color: #042f4b;
+    font-family: 'Fjalla One', sans-serif;
+    &:hover{
+        color:#00adb5;
+        font-size: 3.5rem;
+     }
+    }
+    
+    @media @phone{
+        .pageHome{
+            display: flex;
+            flex-direction: column-reverse;
+            .pageInfo{
+            width: 95%;
+            padding-left: 15px; 
+            }
+            .image{
+                width: 100%;
+                justify-content: center;
+            }
+            .btn{
+                width: 100%;
+            }
+        }
+    }      
+    
