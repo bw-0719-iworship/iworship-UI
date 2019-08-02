@@ -3,7 +3,7 @@ iWorship church locator app
 
 If your moving to a new town or just visiting a new part of town and you want to find a church to attend in your denomination, this app is for you. You can find out the church size, church demographic,and church atmosphere. 
 
-This site serves as a marketing page for the main React application that will feature various churches using existing data sets. Here's the link "``````````````" to the marketing site which provides a login to get started on your search.
+This site serves as a marketing page for the main React application that will feature various churches using existing data sets. Here's the link https://distracted-cori-dc1072.netlify.com/ to the marketing site which provides a login to get started on your search.
 
 Grading Rubric Checklist
 Team Contribution
